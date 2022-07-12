@@ -1,0 +1,336 @@
+html{
+    padding: 0% auto;
+    margin: 0% auto;
+    scroll-behavior: smooth;
+
+}
+body{
+    padding:0%;
+    margin: 0%;
+}
+
+header nav .left .logo img{
+    width: 130px;
+    height: 130px;
+    border: 1px solid transparent;
+    border-radius: 80%;
+    padding-left: 20px;
+    }
+    
+    nav{
+        width: 100%;
+        max-width: 1600px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 150px;
+        z-index: 10;
+        background-color: #25a59c;
+        margin-right: 0% auto;
+        padding: 0 auto;
+        text-transform: uppercase;
+        position: fixed;
+        }
+        nav .left{
+            width: 100%;
+            max-width: 1600px;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            height: 150px;
+            z-index: 10;
+            margin-right: 10%;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-transform: uppercase;
+            }
+            nav .right{
+                width: 100%;
+                max-width: 1600px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                height: 150px;
+                z-index: 10;
+                margin-right: 1%;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                }
+         section{
+                    background-color:#979797;
+                    color: antiquewhite;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    padding-top: 150px;
+                    display: flex;
+                     flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding-right: 70px;
+                    padding-left: 20px;
+
+
+                }
+           
+
+        nav .left a.brand-name{ 
+            color:#851f1f;
+            font-weight: 600;
+            font-size: 25px;        
+            word-spacing: 20%;
+            text-decoration: none;
+            padding-left: 0.7em;
+            
+        
+
+        }
+
+        nav .right div.right a{ 
+            color:#851f1f;            
+            font-weight: 600;
+            font-size:20px;        
+            word-spacing: 10%;
+            text-decoration: none;
+            text-transform: uppercase;
+            border: 2px transparent;
+        }
+        nav .right div.right a:hover{
+            border-bottom:3px solid#851f1f;;
+            transition: all .3s ease-in;
+        }
+
+    
+   .img
+   {
+    width:400px;
+    height: 400px;
+    z-index: 10;
+    padding-top: 30px;
+    padding-left: 5px;
+    border-radius: 20%;
+
+   }
+   .social img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-right:30px;
+    transition: all .3s ease-in;
+    border:3px solid transparent;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.social img:hover{
+    border-bottom:3px solid#851f1f;;
+    transition: all .3s ease-in;
+}
+
+
+#about{
+    padding-top: 200px;
+    background-color: #979797;
+    padding-bottom: 50px;
+    
+}
+#title-about{
+    color:#851f1f;
+    font-size: 50px;
+    font-weight: 600px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+}
+
+.intro{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    padding-bottom: 0px;
+    padding-top: 60px;
+    word-spacing: 10%;
+
+
+}
+#myself{
+    padding-top: 10px;
+}
+
+
+/*skill section start*/
+.skill-section{
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 10px;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    color: #851f1f;
+}
+.skill-section .section-title{
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 100px;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+}
+.intro-name1{
+    float: left;
+    font-size: 30px;
+}
+
+.skills-data{
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    font-weight: 600;
+    padding: .5rem 1rem;
+    margin-bottom: 2rem;
+    border-radius: .5rem;
+    box-shadow: 0 4px 25px rgba(14,36,49,.15);
+    color: #851f1f;
+    width: 100%;
+}
+.skills-html{
+    width: 80%;
+    padding-right: 5px;
+}
+.skills-css{
+    width: 60%;
+}
+.skills-js{
+    width:25%;
+}
+.skills-ui-ux{
+    width: 15%;
+}
+.bx {
+    font-family: 'boxicons'!important;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    display: inline-block;
+    text-transform: none;
+    speak: none;
+}
+
+.bxl-html:before {
+    content: "\e92e";
+}
+.bxl-css:before {
+    content: "\e912";
+}
+.bxl-js:before {
+    content: "\e934";
+}
+.bxl-ui-ux:before {
+    content: "\ee10";
+}
+.skills-names{
+    display: flex;
+}
+.skills-icon {
+    font-size: 2rem;
+    margin-right: 2rem;
+    color:  #851f1f;
+    padding: 0 auto;
+    
+}
+.skills-bar{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #851f1f;
+    height: .25rem;
+    border-radius: .5rem;
+    z-index: -10;
+    padding: 3px 3px;
+}
+.skill img{
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+   
+   
+    #expand{
+        display: none;
+    }
+    h1{
+        font-size: 45px;
+        font-weight: 990;
+    }
+    h2{
+        font-size: 40px;
+        font-weight: 900;
+    }
+    #second, #third{
+        color:maroon;
+        font-weight:600;
+    }
+
+   /* contact us*/
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.contact-form{
+  border-radius: 5px;
+  background-color: ;
+  padding-top: 150px;
+}
+   
+    .main{
+        display: flex;
+        background-color: bisque;
+    }
+    #main1{
+        margin-left: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    @media only screen and (max-width:600px){
+        .link{
+            display: none;
+        }
+        #search-bar{
+            display: none;
+        }
+        #expand{
+            display: block;
+        }
+    }
